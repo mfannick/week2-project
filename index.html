@@ -12,27 +12,69 @@
     <img src="images/cal1.jpeg" width="100%" height="400px" alt="calendar">
 </header>
  <body>
+        <h1>WELCOME!!</h1>
     <div class="container">
-        <h1>WELCOME USER!!</h1>
-         <div class="card">
-              <div class="card-title">
-                  <p>This web application helps you to know your Akan Name depending on your birthday and gender.</p>
-              </div>
-              <div class="card-body">
-                  <h3> What is an Akan Name?</h3>
-                  <p>Akan names are derived from Ghanian culture.<br>
-                  Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. 
-                  </p>
-              </div>
-              <div class="card-footer">
-                  <p>If you are interested please click on <strong>YES</strong> to fill the form</p>
-                  <a href="index1.html" target="_blank"><img id="yes" src="images/yes.jpeg" alt="yes" width="100px" height="80px"></a>
-              </div>
+         <div class="row">
+                <div class="col-md-6">
+                        <div class="card">
+                                <div class="card-title">
+                                    <p>This web application helps you to know your Akan Name depending on your birthday and gender.</p>
+                                </div>
+                                <div class="card-body">
+                                    <h3> What is an Akan Name?</h3>
+                                    <p>Akan names are derived from Ghanian culture.<br>
+                                    Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. 
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <p>If you are interested please fill the form</p>
+                                    <!-- <a href="index1.html" target="_blank"><img id="yes" src="images/yes.jpeg" alt="yes" width="100px" height="80px"></a> -->
+                                </div>
+                              
+                           </div>
+                </div>
+                
+                
+                
             
+            <div class="col-md-6">
+                <div class="form-area">
+                    <div class="card">
+                            <div class="card-title">
+                                    <h1>Web Application Form</h1>
+                                </div>
+                                <div class="card-body">
+                                    <div class="names">
+                                        <div class="names1">
+                                                Firstname:<input type="text" placeholder="firstname..." name="first-name" id="first-name"><br>
+                                                Lastname:<input type="text" placeholder="lastname..." name="last-name" id="last-name"><br>
+                                                Date:<br><input type="text"  id="date"><br>
+                                                Month:<input type="text"  id="month"><br>
+                                        </div><br>
+                                        <div class="names2">
+                                                Year:        <input type="text"  id="year"><br>
+                                                Century:     <input type="number"  id="century"><br>
+                                                female:      <input type="text" placeholder="female..." name="female" id="female"><br>
+                                                male:        <input type="text" placeholder="male..." name="male" id="male"><br>
+                                        </div>
+
+                                    </div>
+                                        
+                                        
+                                </div>
+                                <div class="card-footer">
+                                    <input type="submit" value="submit" id='button'><br>   
+                                </div>
+                    </div>
+                   
+                </div>
+            </div>
          </div>
-        
-    </div>
+         <p class="final">your new name is <strong id='final'> </strong></p>  
    
+
+<script src="js/scripts.js"></script>
+    </div>
  </body>
  <footer>
     <div class="contacts">
