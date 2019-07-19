@@ -23,3 +23,16 @@ footer{
     .cprt{
     text-align: center;
 }
+.final{
+    text-align: center;
+}
+.card-body{
+    align-content: center;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+.names{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
