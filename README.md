@@ -15,11 +15,14 @@
   user interface                | manupulation                                       | Output
   ------------------------------|----------------------------------------------------|--------------------
   Entering the user needed info |storing them into variables use them for calculation|Getting the results
+   
+   
    #### Technologies used
    -HTML
    -CSS Styling
    -Bootstrap
    -Javascript
+   
    ### Contact information
     Phone number=+250786409154
     Email:mfannick1@gmail.com
