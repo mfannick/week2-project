@@ -28,7 +28,7 @@
                                 </div>
                                 <div class="card-footer">
                                     <p>If you are interested please fill the form</p>
-                                    <!-- <a href="index1.html" target="_blank"><img id="yes" src="images/yes.jpeg" alt="yes" width="100px" height="80px"></a> -->
+                                   
                                 </div>
                               
                            </div>
@@ -38,39 +38,42 @@
                 
             
             <div class="col-md-6">
-                <div class="form-area">
-                    <div class="card">
-                            <div class="card-title">
-                                    <h1>Web Application Form</h1>
-                                </div>
-                                <div class="card-body">
-                                    <div class="names">
-                                        <div class="names1">
-                                                Firstname:<input type="text" placeholder="firstname..." name="first-name" id="first-name"><br>
-                                                Lastname:<input type="text" placeholder="lastname..." name="last-name" id="last-name"><br>
-                                                Date:<br><input type="number" min="1" max="31" id="date"><br>
-                                                Month:<input type="number" min="1" max="12" id="month"><br>
-                                        </div><br>
-                                        <div class="names2">
-                                                Year:        <input type="number"  id="year"><br>
-                                                Century:     <input type="number"  id="century"><br>
-                                                female:      <input type="text" placeholder="female..." name="female" id="female"><br>
-                                                male:        <input type="text" placeholder="male..." name="male" id="male"><br>
-                                        </div>
+                <form>
+                        <div class="form-area">
+                                <div class="card">
+                                        <div class="card-title">
+                                                <h1>Web Application Form</h1>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="names">
+                                                    <div class="names1">
 
-                                    </div>
-                                        
-                                        
+                                                            Date(between 1 and 31):<br> <input type="number" name="quantity" min="1" max="31" id="date"><br>
+                                                            Month(between 1 and 12):<br><input type="number" min="1" max="12" id="month"><br>
+                                                    </div><br>
+                                                    <div class="names2">
+                                                            Year:     <br>   <input type="number"  id="year" placeholder="year..."><br>
+                                                            Century:  <br>   <input type="number"  id="century" placeholder="century..."><br>
+                                                            gender(female or male):   <br>   <input type="text" placeholder="gender..." name="gender" id="gender"><br>
+                                                            
+                                                    </div>
+            
+                                                </div>
+                                                    
+                                                    
+                                            </div>
+                                            <div class="card-footer">
+                                                <input type="submit" value="submit" id="button" onclick="p()"><br>   
+                                            </div>
                                 </div>
-                                <div class="card-footer">
-                                    <input type="submit" value="submit" id='button'><br>   
-                                </div>
-                    </div>
-                   
-                </div>
+                               
+                            </div>
+                </form>
+            
             </div>
          </div>
-         <p class="final">your new name is <strong id='final'> </strong></p>  
+         <p id="final"><strong> </strong></p> 
+         <p id="pp"></p> 
    
 
 <script src="js/scripts.js"></script>
