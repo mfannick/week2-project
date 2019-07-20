@@ -12,8 +12,8 @@
   -After you filling the form you would be given the result including the day you were born on and the name corresponding to it
   ### BDD
   <img src="images/p.png">
-  user interface                |manupulation| Output
-  ------------------------------|------------|--------
+  user interface                | manupulation                                       | Output
+  ------------------------------|----------------------------------------------------|--------------------
   Entering the user needed info |storing them into variables use them for calculation|Getting the results
    #### Technologies used
    -HTML
