@@ -8,22 +8,20 @@
  A new web-developer
   ## Setup instructions
   
-  -First read the use or function of the web application.
-  -If interested please start to fill the form.
-  -After you filling the form you would be given the result including the day you were born on and the name corresponding to it
+    -First read the use or function of the web application.
+    -If interested please start to fill the form.
+    -After you filling the form you would be given the result including the day you were born on and the name corresponding to it
 
   ### BDD
   <img src="images/p.png">
   <img src="images/p1.png">
-  <!-- user interface                | manupulation                                       | Output
-  ------------------------------|----------------------------------------------------|--------------------
-  Entering the user needed info |storing them into variables use them for calculation|Getting the results -->
+
 
 
   | Command | Description | Output |
   | --- | --- |-----|
   | Entering the user needed info  | storing them into variables use them for calculation | Getting the results 
-  <!-- | git diff | Show file differences that haven't been staged | -->
+  
    
    
    #### Technologies used
