@@ -14,6 +14,7 @@
 
   ### BDD
   <img src="images/p.png">
+  <img src="images/p1.png">
   <!-- user interface                | manupulation                                       | Output
   ------------------------------|----------------------------------------------------|--------------------
   Entering the user needed info |storing them into variables use them for calculation|Getting the results -->
